@@ -8,7 +8,7 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
         }
-        stage('Build Docker Image by SBO') {
+        stage('Build Docker Image by SBOO') {
             when {
                 branch 'master'
             }
